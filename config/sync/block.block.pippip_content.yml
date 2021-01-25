@@ -1,0 +1,22 @@
+uuid: 5708cada-8b90-4a6e-bc20-88b908b03c2a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pippip
+_core:
+  default_config_hash: QTwkfDaGeBUk6aerktJBDXso4fCsqLTQOuWKXE1xMPU
+id: pippip_content
+theme: pippip
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

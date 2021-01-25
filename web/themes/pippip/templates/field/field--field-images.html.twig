@@ -1,0 +1,18 @@
+{% set jpg= 'jpg' %}
+{# {% set webp = 'webp' %} #}
+
+<div class="a-grid a-grid--4 gallery">
+  {% for item in items %}
+
+    {% set image = item.content['#item'].entity.uri.value %}
+    {% set imageThumb = image|image_style('gallery') %}
+
+    <a href="{{ image|image_style('gallery') }}" title="{{ item.content['#item'].title }}" aria-label="Expand image in a gallery">
+      <picture>
+        {# <source data-srcset="{{ imageThumb|replace({ (jpg): webp }) }}" type="image/webp"> #}
+        <source data-srcset="{{ imageThumb }}" type="image/jpeg">
+        <img data-src="{{ imageThumb }}" class="lazy" alt="{{ item.content['#item'].alt }}" />
+      </picture>
+    </a>
+  {% endfor %}
+</div>
