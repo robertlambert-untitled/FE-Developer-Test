@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "197311145f26ae00efc91c0551b30fd1",
+    "content-hash": "a9d1559967187c01a86e3e26d3de7aab",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1053,6 +1053,24 @@
                 "source": "https://github.com/cweagans/composer-patches/tree/1.7.0"
             },
             "time": "2020-09-30T17:56:20+00:00"
+        },
+        {
+            "name": "desandro/imagesloaded",
+            "version": "5.5.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/desandro/imagesloaded/archive/v4.1.4.zip"
+            },
+            "type": "drupal-library"
+        },
+        {
+            "name": "desandro/masonry",
+            "version": "5.5.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/desandro/masonry/archive/v4.2.2.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -5024,6 +5042,15 @@
                 "source": "https://github.com/egulias/EmailValidator/tree/2.1.22"
             },
             "time": "2020-09-26T15:48:38+00:00"
+        },
+        {
+            "name": "enyo/dropzone",
+            "version": "5.5.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/enyo/dropzone/archive/v5.5.0.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "grasmash/expander",

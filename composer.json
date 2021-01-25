@@ -27,9 +27,35 @@
             "type": "zip"
           }
         }
+      },
+      {
+        "type": "package",
+        "package": {
+          "name": "desandro/imagesloaded",
+          "version": "5.5.0",
+          "type": "drupal-library",
+          "dist": {
+            "url": "https://github.com/desandro/imagesloaded/archive/v4.1.4.zip",
+            "type": "zip"
+          }
+        }
+      },
+      {
+        "type": "package",
+        "package": {
+          "name": "desandro/masonry",
+          "version": "5.5.0",
+          "type": "drupal-library",
+          "dist": {
+            "url": "https://github.com/desandro/masonry/archive/v4.2.2.zip",
+            "type": "zip"
+          }
+        }
       }
     ],
     "require": {
+        "desandro/imagesloaded": "^5.5",
+        "desandro/masonry": "^5.5",
         "drupal/admin_toolbar": "^3.0",
         "drupal/adminimal_theme": "^1.6",
         "drupal/block_content_permissions": "^1.10",
@@ -67,6 +93,7 @@
         "drupal/twig_tweak": "^3.0",
         "drupal/video_embed_field": "^2.4",
         "drupal/xmlsitemap": "^1.0",
+        "enyo/dropzone": "^5.5",
         "pantheon-upstreams/upstream-configuration": "*",
         "unt/syd_tweaks": "dev-master"
     },
