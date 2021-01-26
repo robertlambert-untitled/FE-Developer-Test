@@ -39,6 +39,7 @@ module:
   inline_form_errors: 0
   jsonapi: 0
   link: 0
+  linkit: 0
   m4032404: 0
   media: 0
   media_library: 0

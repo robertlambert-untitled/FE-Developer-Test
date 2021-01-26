@@ -1,7 +1,9 @@
 uuid: b89eb9a5-cfbd-406b-a422-b6c0afed836d
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - media
 _core:
   default_config_hash: rxWMMrn-_0X0Mk0I97RPt25jiCkBzsJBAla9p7TxfQs
 name: 'Full HTML'
@@ -20,7 +22,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p> <a href hreflang !href accesskey target title id rel name class="">'
+      allowed_html: '<em> <strong> <cite> <blockquote cite> <code> <ul type> <ol type start> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p> <a href hreflang !href accesskey target title id rel name class="">'
       filter_html_help: true
       filter_html_nofollow: false
   filter_url:
@@ -42,3 +44,12 @@ filters:
     status: true
     weight: 0
     settings: {  }
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }
