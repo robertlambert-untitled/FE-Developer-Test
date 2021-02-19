@@ -28,8 +28,8 @@ mix.disableSuccessNotifications()
 
 mix.options({
   processCssUrls: false,
-  autoprefixer: { remove: false }
-});
+  autoprefixer: { remove: false },
+})
 
 mix.browserSync({
   proxy: `https://${hostname}`,
@@ -37,7 +37,6 @@ mix.browserSync({
   files: [
     `${themeDirectory}/templates/**/*.twig`,
     `${themeAssets}/sass/**/*.scss`,
-    `${themeAssets}/js/*.js`,
     `${themeAssets}/js/**/*.js`,
     `${themeAssets}/js/**/*.ts`,
     `${themeAssets}/js/**/*.tsx`,

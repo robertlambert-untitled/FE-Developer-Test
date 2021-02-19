@@ -16,5 +16,5 @@
     "./web/themes/pippip/assets/js/**/*.ts",
     "./web/themes/pippip/assets/js/**/*.tsx"
   ],
-  "exclude": ["node_modules", "./web/themes/pippip/dist"]
+  "exclude": ["node_modules", "./web/themes/pippip/dist", "./*.js"]
 }

@@ -1,7 +1,7 @@
 {
-    "/js/defaults.js": "/js/defaults.js?id=9da38922b554b7f92247",
-    "/js/emmsg.js": "/js/emmsg.js?id=526e6d43a003651e9064",
-    "/js/global.js": "/js/global.js?id=d41d8cd98f00b204e980",
-    "/css/print.css": "/css/print.css?id=50cdac295d0af6bdcc52",
-    "/css/global.css": "/css/global.css?id=e59b9891b518028912d7"
+    "/js/defaults.js": "/js/defaults.js",
+    "/js/emmsg.js": "/js/emmsg.js",
+    "/js/global.js": "/js/global.js",
+    "/css/print.css": "/css/print.css",
+    "/css/global.css": "/css/global.css"
 }
