@@ -5,18 +5,22 @@
  */
 
 /**
+ * Local setup
+ */
+const hostname = 'syd.local'
+
+/**
  * Dependencies
  */
 const mix = require('laravel-mix')
 const copyWebpackPlugin = require('copy-webpack-plugin')
 const imageminPlugin = require('imagemin-webpack-plugin').default
 const mixGlob = require('laravel-mix-glob')
-const themeDirectory = './web/themes/pippip'
 
 /**
  * Variables
  */
-const hostname = 'syd.local'
+const themeDirectory = './web/themes/pippip'
 const themeAssets = `${themeDirectory}/assets`
 const glob = new mixGlob({ mix })
 
