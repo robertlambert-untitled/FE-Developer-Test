@@ -28,12 +28,8 @@ mix.disableSuccessNotifications()
 
 mix.options({
   processCssUrls: false,
-  postCss: [
-    require('autoprefixer')({
-      // grid: 'no-autoplace',
-    }),
-  ],
-})
+  autoprefixer: { remove: false }
+});
 
 mix.browserSync({
   proxy: `https://${hostname}`,
