@@ -37,3 +37,13 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Metatag generator D8 > D9
+
+## 2021-03-01
+
+### Added
+
+- User account settings
+
+### Changed
+
+- Site name
