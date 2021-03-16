@@ -47,3 +47,9 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Site name
+
+## 2021-03-16
+
+### Changed
+
+- Added missing accordion init TS

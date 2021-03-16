@@ -3,6 +3,7 @@ import FocusWithin from 'focus-within'
 import zenscroll from 'zenscroll'
 import LazyLoad from 'vanilla-lazyload'
 import toggleDataAttr from './utils/toggleDataAttr'
+import 'van11y-accessible-accordion-aria'
 //import Choices from 'choices.js';
 
 /**
