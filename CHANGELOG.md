@@ -53,3 +53,11 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Added missing accordion init TS
+
+## 2021-05-18
+
+### Changed
+
+- Tweaked base SASS styling
+- Added missing Baguettebox init TS
+- Updated Emmsg TS with better defaults
