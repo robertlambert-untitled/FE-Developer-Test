@@ -1,0 +1,29 @@
+uuid: 93afd637-4c53-42dc-b51c-4b694bf88a7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.gallery_images.field_media_image_2
+    - image.style.gallery
+    - media.type.gallery_images
+  module:
+    - image
+id: media.gallery_images.default
+targetEntityType: media
+bundle: gallery_images
+mode: default
+content:
+  field_media_image_2:
+    label: visually_hidden
+    weight: 0
+    settings:
+      image_style: gallery
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true
