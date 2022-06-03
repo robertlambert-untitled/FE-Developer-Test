@@ -7,6 +7,7 @@ dependencies:
     - field.field.extra_content.image_text.field_copy
     - field.field.extra_content.image_text.field_image
   module:
+    - media_library
     - text
 id: extra_content.image_text.default
 targetEntityType: extra_content
@@ -24,12 +25,9 @@ content:
   field_image:
     weight: 3
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      media_types: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: media_library_widget
     region: content
   title:
     type: string_textfield
