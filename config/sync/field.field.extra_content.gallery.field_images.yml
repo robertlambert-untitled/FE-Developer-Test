@@ -1,11 +1,11 @@
-uuid: 9401f257-0fd8-493a-bb2d-670fce61e2cc
+uuid: b6b444ab-fbb8-4ca3-9c8c-abc85a6b16d8
 langcode: en
 status: true
 dependencies:
   config:
     - eck.eck_type.extra_content.gallery
     - field.storage.extra_content.field_images
-    - media.type.gallery_images
+    - media.type.image
 id: extra_content.gallery.field_images
 field_name: field_images
 entity_type: extra_content
@@ -20,7 +20,7 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
-      gallery_images: gallery_images
+      image: image
     sort:
       field: _none
       direction: ASC

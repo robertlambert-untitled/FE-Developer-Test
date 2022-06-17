@@ -1,19 +1,21 @@
-uuid: 93afd637-4c53-42dc-b51c-4b694bf88a7a
+uuid: 3875bcb5-e897-4e8d-941f-ba5a08fa6023
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.gallery_images.field_media_image_2
+    - core.entity_view_mode.media.gallery
+    - field.field.media.image.field_image_credit
+    - field.field.media.image.field_media_image
     - image.style.gallery
-    - media.type.gallery_images
+    - media.type.image
   module:
     - image
-id: media.gallery_images.default
+id: media.image.gallery
 targetEntityType: media
-bundle: gallery_images
-mode: default
+bundle: image
+mode: gallery
 content:
-  field_media_image_2:
+  field_media_image:
     label: visually_hidden
     weight: 0
     settings:
@@ -24,6 +26,7 @@ content:
     region: content
 hidden:
   created: true
+  field_image_credit: true
   name: true
   thumbnail: true
   uid: true
