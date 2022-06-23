@@ -1,5 +1,5 @@
-# Syd D9 With Media Entities
+# Syd D9
 
 Pantheon based Drupal 9 upstream
 
-WIKI - [https://github.com/UnDOTtitled/Syd-D9-media/wiki](https://github.com/UnDOTtitled/Syd-D9-media/wiki)
+WIKI - [https://github.com/TincanPipPip/Syd-D9/wiki](https://github.com/TincanPipPip/Syd-D9/wiki)
