@@ -73,3 +73,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Twig templates displaying image fields
+
+### Changed
+
+- Added media permissions for SuperEditors & Editors
