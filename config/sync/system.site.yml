@@ -1,3 +1,6 @@
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+langcode: en
 uuid: c5930f40-0328-4218-bf9e-6ab7c21a210b
 name: 'Syd D9 Upstream'
 mail: dp_admin@un.titled.co.uk
@@ -8,8 +11,5 @@ page:
   front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
 default_langcode: en
-_core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
 mail_notification: ''

@@ -20,28 +20,28 @@ mode: teaser
 content:
   body:
     type: smart_trim
-    weight: 0
     label: hidden
     settings:
       trim_length: 30
       trim_type: words
       trim_suffix: ''
-      wrap_class: trimmed
-      more_text: More
-      more_class: more-link
-      summary_handler: full
       wrap_output: false
+      wrap_class: trimmed
       more_link: false
+      more_class: more-link
+      more_text: More
+      summary_handler: full
       trim_options:
         text: false
         trim_zero: false
     third_party_settings: {  }
+    weight: 0
     region: content
   links:
-    weight: 1
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   field_banner_image: true
   field_content: true

@@ -15,7 +15,9 @@ bundle: partners
 mode: default
 content:
   field_partner_logos:
+    type: inline_entity_form_complex
     weight: 26
+    region: content
     settings:
       form_mode: default
       override_labels: true
@@ -28,8 +30,6 @@ content:
       collapsible: false
       collapsed: false
     third_party_settings: {  }
-    type: inline_entity_form_complex
-    region: content
   info:
     type: string_textfield
     weight: -5

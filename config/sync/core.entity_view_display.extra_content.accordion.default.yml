@@ -14,30 +14,30 @@ bundle: accordion
 mode: default
 content:
   field_display_title:
-    weight: -3
+    type: boolean
     label: hidden
     settings:
       format: boolean
-      format_custom_true: ''
       format_custom_false: ''
+      format_custom_true: ''
     third_party_settings: {  }
-    type: boolean
+    weight: -3
     region: content
   field_rows:
-    weight: -4
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: -4
     region: content
   title:
-    label: hidden
     type: string
-    weight: -5
-    region: content
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: -5
+    region: content
 hidden: {  }

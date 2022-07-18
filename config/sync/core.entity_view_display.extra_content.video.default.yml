@@ -14,30 +14,30 @@ bundle: video
 mode: default
 content:
   field_display_title:
-    weight: -3
+    type: boolean
     label: hidden
     settings:
       format: boolean
-      format_custom_true: ''
       format_custom_false: ''
+      format_custom_true: ''
     third_party_settings: {  }
-    type: boolean
+    weight: -3
     region: content
   field_video:
     type: entity_reference_entity_view
-    weight: -2
     label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
+    weight: -2
     region: content
   title:
-    label: hidden
     type: string
-    weight: -5
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: -5
     region: content
 hidden: {  }

@@ -1,7 +1,28 @@
 uuid: 9b63c113-e849-4b7f-b3d4-0ed8c1e9a579
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.homepage
+    - node.type.page
+  module:
+    - block_content_permissions
+    - dropzonejs
+    - eck
+    - entity_browser
+    - filter
+    - media
+    - menu_admin_per_menu
+    - node
+    - publishcontent
+    - rebuild_cache_access
+    - redirect
+    - roleassign
+    - shortcut
+    - system
+    - toolbar
+    - view_unpublished
 _core:
   default_config_hash: veKr-LoREI7RgCq8Og1MAx08BKxLLzfdGkTSBwuRd4Y
 id: super_editor
@@ -13,27 +34,19 @@ permissions:
   - 'access browse_files entity browser pages'
   - 'access browse_files_modal entity browser pages'
   - 'access content overview'
-  - 'access contextual links'
-  - 'access in-place editing'
   - 'access shortcuts'
   - 'access toolbar'
-  - 'access users overview'
   - 'administer footer menu items'
   - 'administer main menu items'
   - 'administer redirects'
   - 'administer users'
-  - 'assign editor role'
   - 'assign roles'
-  - 'assign super_editor role'
-  - 'cancel users with role editor'
-  - 'cancel users with role super_editor'
   - 'create accordion_row entities'
   - 'create extra_content entities'
   - 'create logos entities'
+  - 'create media'
   - 'create page content'
   - 'create social_links entities'
-  - 'create users'
-  - 'create media'
   - 'delete all revisions'
   - 'delete any accordion_row entities'
   - 'delete any extra_content entities'
@@ -48,8 +61,6 @@ permissions:
   - 'edit any logos entities'
   - 'edit any page content'
   - 'edit any social_links entities'
-  - 'edit users with role editor'
-  - 'edit users with role super_editor'
   - 'publish any content'
   - 'publish any node type homepage'
   - 'publish any node type page'
@@ -74,6 +85,7 @@ permissions:
   - 'update any partners block content'
   - 'update any social_links block content'
   - 'use text format full_html'
+  - 'view all media revisions'
   - 'view all revisions'
   - 'view any accordion_row entities'
   - 'view any extra_content entities'
@@ -83,4 +95,3 @@ permissions:
   - 'view own unpublished content'
   - 'view page revisions'
   - 'view the administration theme'
-  - 'view all media revisions'

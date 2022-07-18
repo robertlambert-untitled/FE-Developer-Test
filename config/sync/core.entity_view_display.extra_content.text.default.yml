@@ -16,28 +16,28 @@ bundle: text
 mode: default
 content:
   field_copy:
-    weight: -4
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: -4
     region: content
   field_display_title:
-    weight: -3
+    type: boolean
     label: hidden
     settings:
       format: boolean
-      format_custom_true: ''
       format_custom_false: ''
+      format_custom_true: ''
     third_party_settings: {  }
-    type: boolean
+    weight: -3
     region: content
   title:
-    label: hidden
     type: string
-    weight: -5
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: -5
     region: content
 hidden: {  }

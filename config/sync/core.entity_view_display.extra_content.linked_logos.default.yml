@@ -15,29 +15,29 @@ mode: default
 content:
   field_display_title:
     type: boolean
-    weight: 2
-    region: content
     label: hidden
     settings:
       format: boolean
-      format_custom_true: ''
       format_custom_false: ''
+      format_custom_true: ''
     third_party_settings: {  }
+    weight: 2
+    region: content
   field_logos:
-    weight: 1
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 1
     region: content
   title:
-    label: hidden
     type: string
-    weight: 0
-    region: content
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden: {  }

@@ -12,13 +12,13 @@ type: 'canonical_entities:node'
 pattern: '[node:menu-link:parents:join-path]/[node:title]'
 selection_criteria:
   51428470-6b20-4170-acb1-34c294d2f55a:
-    id: node_type
-    bundles:
-      homepage: homepage
-      page: page
+    id: 'entity_bundle:node'
     negate: false
     context_mapping:
       node: node
+    bundles:
+      homepage: homepage
+      page: page
 selection_logic: and
 weight: -5
 relationships: {  }

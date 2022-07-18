@@ -15,7 +15,7 @@ bundle: cta
 mode: default
 content:
   field_cta:
-    weight: -4
+    type: link
     label: hidden
     settings:
       trim_length: null
@@ -24,14 +24,14 @@ content:
       rel: '0'
       target: '0'
     third_party_settings: {  }
-    type: link
+    weight: -4
     region: content
   title:
-    label: hidden
     type: string
-    weight: -5
-    region: content
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: -5
+    region: content
 hidden: {  }

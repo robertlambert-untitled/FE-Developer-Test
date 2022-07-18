@@ -32,11 +32,11 @@ content:
       label_singular: Row
       label_plural: Rows
       allow_new: true
+      allow_existing: false
       match_operator: CONTAINS
       allow_duplicate: true
       collapsible: false
       collapsed: false
-      allow_existing: false
     third_party_settings: {  }
   title:
     type: string_textfield

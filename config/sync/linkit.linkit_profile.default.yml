@@ -6,19 +6,19 @@ dependencies:
     - node
 _core:
   default_config_hash: Qa9b3hUOU4CsrGiK5Wo2YRoSI4BVMTadUUXvM6-RrRw
-id: default
 label: default
+id: default
 description: ''
 matchers:
   540c6128-c007-4d6f-a0c6-fccd7abd98ca:
-    uuid: 540c6128-c007-4d6f-a0c6-fccd7abd98ca
     id: 'entity:node'
-    weight: 0
+    uuid: 540c6128-c007-4d6f-a0c6-fccd7abd98ca
     settings:
-      result_description: ''
+      metadata: ''
       bundles: {  }
       group_by_bundle: false
-      include_unpublished: false
-      metadata: ''
       substitution_type: canonical
       limit: 100
+      include_unpublished: false
+      result_description: ''
+    weight: 0

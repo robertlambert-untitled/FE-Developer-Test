@@ -15,13 +15,13 @@ bundle: row
 mode: default
 content:
   field_copy:
+    type: text_textarea
     weight: 3
+    region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
-    region: content
   title:
     type: string_textfield
     weight: -5
