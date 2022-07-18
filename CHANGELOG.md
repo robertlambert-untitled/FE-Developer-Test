@@ -77,3 +77,11 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Added media permissions for SuperEditors & Editors
+
+## 2022-07-18
+
+- Updated PHP 7.4 to PHP 8 in DDEV & Composer
+- Updated Drupal core to latest version D9.4.2
+- Update contributed modules
+
+
