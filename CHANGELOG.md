@@ -84,4 +84,8 @@ All notable changes to this project will be documented in this file.
 - Updated Drupal core to latest version D9.4.2
 - Update contributed modules
 
+## 2022-08-01
+
+- Allowed mutiple values for attachments
+
 
