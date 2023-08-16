@@ -1,0 +1,23 @@
+uuid: f4ea3c5e-b123-48e1-805f-0c4dc70c2fa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.signpost_grouping_row.signpost
+    - field.storage.signpost_grouping_row.field_2_1_style
+id: signpost_grouping_row.signpost.field_2_1_style
+field_name: field_2_1_style
+entity_type: signpost_grouping_row
+bundle: signpost
+label: '2/1 Style when only 2 signposts are selected'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

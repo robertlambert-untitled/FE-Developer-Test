@@ -1,0 +1,23 @@
+uuid: 05a5477e-7870-4548-901c-60cc2519ace1
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.signpost.entity_reference
+    - field.field.signpost.entity_reference.field_entity_reference
+id: signpost.entity_reference.default
+targetEntityType: signpost
+bundle: entity_reference
+mode: default
+content:
+  field_entity_reference:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  title: true

@@ -1,0 +1,10 @@
+uuid: 87ca3d59-6b62-42e8-858f-9fcf730dbb7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.signpost
+label: Signpost
+targetEntityType: node
+cache: true

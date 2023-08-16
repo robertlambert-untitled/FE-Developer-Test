@@ -3,24 +3,22 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.homepage.body
-    - field.field.node.homepage.field_banner_image
+    - field.field.node.homepage.field_page_reference_title
+    - field.field.node.homepage.field_page_references
     - node.type.homepage
   module:
     - field_group
-    - media_library
     - path
-    - text
 third_party_settings:
   field_group:
     group_content:
       children:
-        - body
-        - field_image
+        - field_page_reference_title
+        - field_page_references
       label: Content
       region: content
       parent_name: group_homepage
-      weight: 9
+      weight: 28
       format_type: tab
       format_settings:
         classes: ''
@@ -47,28 +45,29 @@ targetEntityType: node
 bundle: homepage
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 4
-    region: content
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-      show_summary: false
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_banner_image:
-    type: media_library_widget
-    weight: 26
+  field_page_reference_title:
+    type: string_textfield
+    weight: 27
     region: content
     settings:
-      media_types: {  }
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_page_references:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path

@@ -1,0 +1,51 @@
+uuid: a5e0cfe8-cea2-4d6e-8f9d-4295e29202af
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.signpost_grouping_row.signpost
+    - field.field.signpost_grouping_row.signpost.field_2_1_style
+    - field.field.signpost_grouping_row.signpost.field_signpost
+  module:
+    - entity_browser_entity_form
+    - inline_entity_form
+id: signpost_grouping_row.signpost.default
+targetEntityType: signpost_grouping_row
+bundle: signpost
+mode: default
+content:
+  field_2_1_style:
+    type: boolean_checkbox
+    weight: 0
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_signpost:
+    type: inline_entity_form_complex
+    weight: 1
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: _none
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

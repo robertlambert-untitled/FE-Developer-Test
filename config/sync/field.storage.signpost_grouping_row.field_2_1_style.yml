@@ -1,0 +1,18 @@
+uuid: 77c4b1fc-34aa-47a1-8a2c-779d8102e721
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: signpost_grouping_row.field_2_1_style
+field_name: field_2_1_style
+entity_type: signpost_grouping_row
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

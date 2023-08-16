@@ -6,7 +6,9 @@ version: 9.x
 core_version_requirement: ^8 || ^9
 libraries:
   - pippip/global
-
+  - seven/classy.messages
+  - core/normalize
+  - seven/global-styling
 regions:
   admin: Admin
   content: Content

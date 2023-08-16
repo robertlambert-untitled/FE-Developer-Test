@@ -1,0 +1,41 @@
+uuid: 5e5c4171-3f9b-436b-a22e-c7a4125ab8f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.signpost_grouping_row.signpost
+    - field.field.signpost_grouping_row.signpost.field_2_1_style
+    - field.field.signpost_grouping_row.signpost.field_signpost
+id: signpost_grouping_row.signpost.default
+targetEntityType: signpost_grouping_row
+bundle: signpost
+mode: default
+content:
+  field_2_1_style:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_signpost:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden: {  }

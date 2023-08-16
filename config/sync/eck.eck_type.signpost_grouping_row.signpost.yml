@@ -1,0 +1,9 @@
+uuid: 785e7d52-ae71-43d5-9b5c-b1fca9a9c327
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.signpost_grouping_row
+name: Signpost
+type: signpost
+description: ''

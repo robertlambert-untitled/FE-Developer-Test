@@ -1,0 +1,19 @@
+uuid: 35a3265d-e6c2-4823-9800-abe830888290
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_page_references
+field_name: field_page_references
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

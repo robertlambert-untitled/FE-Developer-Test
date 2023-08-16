@@ -1,0 +1,21 @@
+uuid: 940d9a27-893a-4e5b-8a85-02fbf0f9fca1
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: signpost.field_title
+field_name: field_title
+entity_type: signpost
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

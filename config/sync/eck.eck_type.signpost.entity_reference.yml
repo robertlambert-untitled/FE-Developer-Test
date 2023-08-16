@@ -1,0 +1,9 @@
+uuid: 6f9cc2ac-a196-47f4-a99c-2d0e94047943
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.signpost
+name: 'Entity Reference'
+type: entity_reference
+description: ''

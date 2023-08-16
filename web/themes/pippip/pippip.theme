@@ -136,3 +136,26 @@ function pippip_preprocess_breadcrumb(&$variables) {
   // Recipes page, which should read Home >> Recipes.
   $variables['#cache']['contexts'][] = 'url';
 }
+
+
+function pippip_preprocess_eck_entity(&$variables) {
+
+    $entity_type = $variables['entity_type'];
+
+    if ($entity_type == 'signpost_grouping_row') {
+
+        $signposts = isset($variables['content']['field_signpost']['#items']) ? $variables['content']['field_signpost']['#items'] : '';
+        if ($signposts) {
+            $signpost_count = $signposts->count();
+            $grid_class_name = 'a-grid--' . $signpost_count;
+            if ($signpost_count == 2) {
+                $signpost_option = $variables['content']['field_2_1_style'][0]['#markup'];
+                if ($signpost_option == 'On') {
+                    $grid_class_name = 'a-grid--2-1';
+                }
+            }
+            $variables['grid_class_name'] = $grid_class_name;
+        }
+
+    }
+}

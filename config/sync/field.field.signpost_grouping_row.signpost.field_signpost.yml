@@ -1,0 +1,31 @@
+uuid: 0ea0824f-1900-4685-8222-329ba2676cac
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.signpost.curated
+    - eck.eck_type.signpost.entity_reference
+    - eck.eck_type.signpost_grouping_row.signpost
+    - field.storage.signpost_grouping_row.field_signpost
+id: signpost_grouping_row.signpost.field_signpost
+field_name: field_signpost
+entity_type: signpost_grouping_row
+bundle: signpost
+label: Signpost
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:signpost'
+  handler_settings:
+    target_bundles:
+      curated: curated
+      entity_reference: entity_reference
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: curated
+field_type: entity_reference

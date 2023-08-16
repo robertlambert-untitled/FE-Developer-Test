@@ -1,0 +1,20 @@
+uuid: beb3ab2e-af2a-4687-8ffb-5e2106b06bde
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - media
+id: signpost.field_image
+field_name: field_image
+entity_type: signpost
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

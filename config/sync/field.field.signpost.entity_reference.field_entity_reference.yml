@@ -1,0 +1,29 @@
+uuid: 0ae5421f-4850-47d7-9d3a-eab025c61c34
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.signpost.entity_reference
+    - field.storage.signpost.field_entity_reference
+    - node.type.page
+id: signpost.entity_reference.field_entity_reference
+field_name: field_entity_reference
+entity_type: signpost
+bundle: entity_reference
+label: 'Entity Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,9 @@
+uuid: a4bd7391-eaac-41db-a270-9ff0fca6e6d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.signpost
+name: Curated
+type: curated
+description: ''

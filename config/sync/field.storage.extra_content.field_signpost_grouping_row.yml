@@ -1,0 +1,19 @@
+uuid: 7abeb0a0-5b83-4d13-8d43-0d9a47bf9682
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: extra_content.field_signpost_grouping_row
+field_name: field_signpost_grouping_row
+entity_type: extra_content
+type: entity_reference
+settings:
+  target_type: signpost_grouping_row
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

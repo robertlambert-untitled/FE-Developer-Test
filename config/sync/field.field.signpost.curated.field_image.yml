@@ -1,0 +1,29 @@
+uuid: a5cebe61-187e-4ffc-bda2-1b3cd7402ea8
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.signpost.curated
+    - field.storage.signpost.field_image
+    - media.type.banner_image
+id: signpost.curated.field_image
+field_name: field_image
+entity_type: signpost
+bundle: curated
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      banner_image: banner_image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: cebbad0c-8703-4ed5-acef-3267414ccc6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.signpost.curated
+    - field.storage.signpost.field_title
+id: signpost.curated.field_title
+field_name: field_title
+entity_type: signpost
+bundle: curated
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

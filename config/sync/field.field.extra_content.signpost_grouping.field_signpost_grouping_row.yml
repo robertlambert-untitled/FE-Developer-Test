@@ -1,0 +1,29 @@
+uuid: 661b87be-682c-4d72-b5df-b8bda374ef13
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.extra_content.signpost_grouping
+    - eck.eck_type.signpost_grouping_row.signpost
+    - field.storage.extra_content.field_signpost_grouping_row
+id: extra_content.signpost_grouping.field_signpost_grouping_row
+field_name: field_signpost_grouping_row
+entity_type: extra_content
+bundle: signpost_grouping
+label: 'Signpost Grouping Row'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:signpost_grouping_row'
+  handler_settings:
+    target_bundles:
+      signpost: signpost
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
